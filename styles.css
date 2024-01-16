@@ -1,0 +1,209 @@
+body {
+    background-color: powderblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.myDiv {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px outset peachpuff;
+    background-color: white;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-width: medium;
+    border-radius: 3%;
+    box-shadow: 5px 4px #5f6368;
+    padding: 3% 3% 2% 3%;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text],
+input[type=number],
+textarea {
+    display: inline-block;
+    text-align: left;
+    width: 240px;
+    font-size: large;
+    color: black;
+    /*font-weight: bold; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 240px;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin-top: 10px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    text-align: center;
+}
+
+div {
+    margin-left: 33%;
+    margin-top: 100px;
+}
+
+h1 {
+    text-shadow: 1px 2px 1px brown;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+input[type=file],
+input[type=date],
+select {
+    display: inline-block;
+    text-align: left;
+    width: 240px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#btn1,
+#btn2 {
+    margin-left: auto;
+}
+
+#btn2:hover {
+    color: white;
+    background-color: green;
+}
+
+#btn1:hover {
+    color: white;
+    background-color: blue;
+}
+
+section {
+    display: block;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 50%;
+    font-size: large;
+}
+
+#txt {
+    padding: auto;
+    font-size: large;
+    cursor: pointer;
+}
+
+#btn1,
+#btn2,
+#sub,
+#dis {
+    font-size: medium;
+}
+
+#data1,
+#data2 {
+    width: 700px;
+    margin-left: 0px;
+}
+
+button {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #5f6368;
+    border-radius: 2.0em;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 0.7em 0.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+button:hover,
+button:focus {
+    background-color: #5f6368;
+    color: #fff;
+    outline: 0;
+}
+
+.btn {
+    border-color: #5f6368;
+    color: #5f6368;
+    background-image: linear-gradient(45deg, #5f6368 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+}
+
+.btn:hover {
+    background-position: 0;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th,
+td {
+    border: '2';
+    border: 2px solid gray;
+    color: black;
+    padding: 3px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+table {
+    border: '2';
+    border: 2px solid black;
+    color: black;
+    padding: 3px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+section {
+    margin: auto;
+}
+
+#fileInput {
+    margin-left: 50%;
+}
+
+#fir {
+    margin-right: 15%;
+}
+
+#btn1,
+#btn3 {
+    font-size: large;
+}

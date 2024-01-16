@@ -1,0 +1,140 @@
+body {
+    background-color: powderblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+table,
+th,
+td {
+    border: '2';
+    border: 1px solid black;
+    color: black;
+    padding: 3px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    text-shadow: 1px 2px 1px brown;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+}
+
+input[type=text],
+input[type=number],
+input[type=time] {
+    display: inline-block;
+    text-align: left;
+    width: 240px;
+    font-size: large;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.myDiv {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px outset peachpuff;
+    background-color: white;
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-width: medium;
+    border-radius: 3%;
+    box-shadow: 5px 4px #5f6368;
+    padding: 3% 3% 2% 3%;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 240px;
+    font-size: large;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+input[type=date] {
+    display: inline-block;
+    text-align: left;
+    width: 240px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin-top: 15px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    text-align: center;
+}
+
+div {
+    margin-left: 33%;
+    margin-top: 100px;
+}
+
+#f1,
+#btn1,
+#btn2 {
+    margin-left: auto;
+}
+
+#btn1:hover {
+    color: white;
+    background-color: red;
+}
+
+#btn3:hover {
+    color: white;
+    background-color: green;
+}
+
+#btn2:hover {
+    color: white;
+    background-color: blue;
+}
+
+section {
+    display: block;
+    margin-left: 35%;
+    margin-right: auto;
+    width: 50%;
+    font-size: large;
+}
+
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txt {
+    padding: auto;
+    font-size: large;
+    cursor: pointer;
+}
+
+#btn1,
+#btn2,
+#btn3,
+#f1,
+#sub,
+#dis {
+    font-size: medium;
+}
